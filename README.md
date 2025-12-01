@@ -98,6 +98,26 @@ Note: All percentages are in float form i.e. 15% = 0.15
 | Interpretation   | In this case, Lower = better. This indicates ability to secure the ball |
 | Importance   | Critical in considering player's ball-handling ability. Higher-usage players usually have a higher turnover percentage due to the pure volume of involvement  |
 
+## Calculated Metrics
+### MVP Score
+| Attribute | Value | 
+|----------|----------|
+| Data Type   | float   |
+| Description   | Composite score weighting multiple advanced metrics to estimate MVP-caliber performance |
+| Formula   | (NET_RATING × 0.30) + (TS_PCT × 0.20) + (USG_PCT × 0.15) + (AST_RATIO × 0.10) + (REB_PCT × 0.10) + (PIE × 0.10) - (TM_TOV_PCT × 0.05)  |
+| Typical Range  | Varies by dataset  |
+| Interpretation   | Higher = more MVP-like statistical profile |
+| Importance   | Aggregates multiple dimensions of performance into single comparable value for league's top performers |
 
+### Understanding Weight Justification
+| Metric | Weight | Reason |
+|----------|----------|----------|
+| NET_RATING   | 30%   | Strongest indicator for winning impact   |
+| TS_PCT   | 20%   | For stars, scoring efficiecy is crucial   |
+| USG_PCT   | 15%   | MVPs are usually won for offensive impact   |
+| AST_RATIO   | 10%   | Playmaking adds value beyond scoring   |
+| REB_PCT   | 10%   | Rebounding leads to more team success and more possessions    |
+| PIE   | 10%   | Overall impact validation   |
+| TM_TOV_PCT   | -5%   | Penalty deduction for turning the ball over   |
 
 

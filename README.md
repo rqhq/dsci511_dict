@@ -69,9 +69,23 @@ Note: All percentages are in float form i.e. 15% = 0.15
 | Data Type   | float   |
 | Description   | Percentage of available rebounds grabbed by the player while on court |
 | Formula   | 100 × (Rebounds × Team Minutes) / (Player Minutes × (Team Rebounds + Opponent Rebounds))  |
-| Typical Range  | 5.0 to 25.0  |
-| Elite Threshold   | 25.0+, 30.0+ for Point Guards as they typically distribute the ball far more than other positions  |
-| Interpretation   | Takes into consideration playmaking as shooting is not everything in the NBA, passing is very important as well  |
-| Importance   | Measures playmaking ability independent of team pace and valuable for identifying facilitators vs. scorers |
+| Typical Range  | 3% to 20%  |
+| Elite Threshold   | 15% for big men (taller players), 8% for guards |
+| Interpretation   | Higher = better rebounding capabilities when a rebounding opportunity occurs |
+| Importance   | Takes positioning into account for rebounding instead of just total rebounds |
+
+### PIE (Player Impact Estimate)
+| Attribute | Value | 
+|----------|----------|
+| Data Type   | float   |
+| Description   | NBA's catch-all metric estimating a player's overall contribution to game outcomes |
+| Formula   | (PTS + FGM + FTM - FGA - FTA + DREB + 0.5×OREB + AST + STL + 0.5×BLK - PF - TOV) / Game Totals  |
+| Typical Range  | 5% to 25%  |
+| League Average  | Roughly 10%  |
+| Elite Threshold   | 18%+ |
+| Interpretation   | Represents percentage of game events attributable to player thus higher = greater impact |
+| Importance   | A simple single-number summary that can be used for quick player comparisons |
+
+
 
 

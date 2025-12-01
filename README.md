@@ -86,6 +86,18 @@ Note: All percentages are in float form i.e. 15% = 0.15
 | Interpretation   | Represents percentage of game events attributable to player thus higher = greater impact |
 | Importance   | A simple single-number summary that can be used for quick player comparisons |
 
+### TM_TOV_PCT (Turnover Ratio)
+| Attribute | Value | 
+|----------|----------|
+| Data Type   | float   |
+| Description   | Percentage of player's possessions that end in a turnover |
+| Formula   | 100 × Turnovers / (FGA + 0.44 × FTA + Turnovers)  |
+| Typical Range  | 5.0 to 20.0  |
+| League Average  | Roughly 12.0  |
+| Elite Threshold   | Below 10.0 |
+| Interpretation   | In this case, Lower = better. This indicates ability to secure the ball |
+| Importance   | Critical in considering player's ball-handling ability. Higher-usage players usually have a higher turnover percentage due to the pure volume of involvement  |
+
 
 
 

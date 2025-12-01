@@ -118,6 +118,9 @@ Note: All percentages are in float form i.e. 15% = 0.15
 | AST_RATIO   | 10%   | Playmaking adds value beyond scoring   |
 | REB_PCT   | 10%   | Rebounding leads to more team success and more possessions    |
 | PIE   | 10%   | Overall impact validation   |
-| TM_TOV_PCT   | -5%   | Penalty deduction for turning the ball over   |
+| TM_TOV_PCT   | 5%   | Importance of turning the ball over  |
+
+
+
 
 

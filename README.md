@@ -121,6 +121,17 @@ Note: All percentages are in float form i.e. 15% = 0.15
 | TM_TOV_PCT   | 5%   | Importance of turning the ball over  |
 
 
+## Data Quality Indicators
+### Reccomended Filters
+| Filter | Threshold | Reason |
+|----------|----------|----------|
+| Minimum Games   | Data 2   | Data 3   |
+| Data 4   | Data 5   | Data 6   |
+| Data 4   | Data 5   | Data 6   |
 
-
+### Known Limitations
+- Missing Context: Injuries, trades, quality of teammates, coaching firings/hirings
+- No Defensive Metrics Tracked: The defensive stats that are tracked are the basic boxscore metrics
+- Opponent Strength: Schedule difficulty is not taken into account
+- Team Playstyle: Some teams have higher paces while others play more possession-based basketball (slower)
 

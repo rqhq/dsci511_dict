@@ -1,6 +1,6 @@
 # NBA MVP Dataset - Data Dictionary
 ## Overview
-This documentation provides detailed descriptions of the variables in the NBA MVP dataset. this dataset provides advanced metrics and statistics that require further explanation. These performance metrics are for 33 star-caliber players that have averaged 20+ points per game spanning from 2021-2022 through the 2024-2025 seasons.
+This documentation provides detailed descriptions of the variables in the NBA MVP dataset. this dataset provides advanced metrics and statistics that require further explanation. These performance metrics are for 33 star-caliber players that have averaged 20+ points per game spanning from 2020-2021 through the 2024-2025 seasons.
 
  
 ## Player Identification
@@ -128,6 +128,17 @@ Note: All percentages are in float form i.e. 15% = 0.15
 | Minimum Games   | Data 2   | Data 3   |
 | Data 4   | Data 5   | Data 6   |
 | Data 4   | Data 5   | Data 6   |
+
+## Basketball Terminology Glossary
+| Term | Definition | 
+|----------|----------|
+| Possession   | An offensive oppurtunity resulting in a shot, foul, or turnover  |
+| Pace   | Speed at which a team plays. This is the number of possessions a team has per 48 minutes (full game) | 
+| Offensive Rating  | Points scored per 100 possessions   | 
+| Defensive Rating   | Points allowed per 100 possessions   | 
+| FGA  | Field Goals Attempted   | 
+| FTA  | Free Throws Attempted  | 
+| TOV   | Turnovers  | 
 
 ### Known Limitations
 - Missing Context: Injuries, trades, quality of teammates, coaching firings/hirings

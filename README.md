@@ -33,7 +33,7 @@ Note: All percentages are in float form i.e. 15% = 0.15
 |----------|----------|
 | Data Type   | float   |
 | Description   | Scoring efficiency metric that accounts for field goals, 3-pointers, and free throws  |
-| Formula   | Points / (2 x (FGA + 0.44 × FTA))  |
+| Formula   | Points / (2 x (FGA + 0.44 x FTA))  |
 | Typical Range  | 45% - 70%   |
 | League Average   | 58%   |
 | Elite Threshold   | 65%+   |
@@ -45,7 +45,7 @@ Note: All percentages are in float form i.e. 15% = 0.15
 |----------|----------|
 | Data Type   | float   |
 | Description   | Percentage of team plays used by the player while on the court |
-| Formula   | 100 × ((FGA + 0.44 × FTA + TOV) × (Team Minutes / 5)) / (Minutes × (Team FGA + 0.44 × Team FTA + Team TOV))  |
+| Formula   | 100 x ((FGA + 0.44 x FTA + TOV) x (Team Minutes / 5)) / (Minutes x (Team FGA + 0.44 x Team FTA + Team TOV))  |
 | Typical Range  | 15% to 35%  |
 | League Average   | 20%   |
 | Elite Threshold   | 30%+   |
@@ -57,7 +57,7 @@ Note: All percentages are in float form i.e. 15% = 0.15
 |----------|----------|
 | Data Type   | float   |
 | Description   | Percentage of player's possessions that end in an assist |
-| Formula   | 100 × Assists / (FGA + 0.44 × FTA + Assists + Turnovers)  |
+| Formula   | 100 x Assists / (FGA + 0.44 x FTA + Assists + Turnovers)  |
 | Typical Range  | 5.0 to 25.0  |
 | Elite Threshold   | 25.0+, 30.0+ for Point Guards as they typically distribute the ball far more than other positions  |
 | Interpretation   | Takes into consideration playmaking as shooting is not everything in the NBA, passing is very important as well  |
@@ -68,7 +68,7 @@ Note: All percentages are in float form i.e. 15% = 0.15
 |----------|----------|
 | Data Type   | float   |
 | Description   | Percentage of available rebounds grabbed by the player while on court |
-| Formula   | 100 × (Rebounds × Team Minutes) / (Player Minutes × (Team Rebounds + Opponent Rebounds))  |
+| Formula   | 100 x (Rebounds x Team Minutes) / (Player Minutes x (Team Rebounds + Opponent Rebounds))  |
 | Typical Range  | 3% to 20%  |
 | Elite Threshold   | 15% for big men (taller players), 8% for guards |
 | Interpretation   | Higher = better rebounding capabilities when a rebounding opportunity occurs |
@@ -79,7 +79,7 @@ Note: All percentages are in float form i.e. 15% = 0.15
 |----------|----------|
 | Data Type   | float   |
 | Description   | NBA's catch-all metric estimating a player's overall contribution to game outcomes |
-| Formula   | (PTS + FGM + FTM - FGA - FTA + DREB + 0.5×OREB + AST + STL + 0.5×BLK - PF - TOV) / Game Totals  |
+| Formula   | (PTS + FGM + FTM - FGA - FTA + DREB + 0.5xOREB + AST + STL + 0.5xBLK - PF - TOV) / Game Totals  |
 | Typical Range  | 5% to 25%  |
 | League Average  | Roughly 10%  |
 | Elite Threshold   | 18%+ |
@@ -91,7 +91,7 @@ Note: All percentages are in float form i.e. 15% = 0.15
 |----------|----------|
 | Data Type   | float   |
 | Description   | Percentage of player's possessions that end in a turnover |
-| Formula   | 100 × Turnovers / (FGA + 0.44 × FTA + Turnovers)  |
+| Formula   | 100 x Turnovers / (FGA + 0.44 x FTA + Turnovers)  |
 | Typical Range  | 5.0 to 20.0  |
 | League Average  | Roughly 12.0  |
 | Elite Threshold   | Below 10.0 |
@@ -104,7 +104,7 @@ Note: All percentages are in float form i.e. 15% = 0.15
 |----------|----------|
 | Data Type   | float   |
 | Description   | Composite score weighting multiple advanced metrics to estimate MVP-caliber performance |
-| Formula   | (NET_RATING × 0.30) + (TS_PCT × 0.20) + (USG_PCT × 0.15) + (AST_RATIO × 0.10) + (REB_PCT × 0.10) + (PIE × 0.10) - (TM_TOV_PCT × 0.05)  |
+| Formula   | (NET_RATING x 0.30) + (TS_PCT x 0.20) + (USG_PCT x 0.15) + (AST_RATIO x 0.10) + (REB_PCT x 0.10) + (PIE x 0.10) - (TM_TOV_PCT x 0.05)  |
 | Typical Range  | Varies by dataset  |
 | Interpretation   | Higher = more MVP-like statistical profile |
 | Importance   | Aggregates multiple dimensions of performance into single comparable value for league's top performers |

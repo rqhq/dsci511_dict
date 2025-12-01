@@ -33,7 +33,7 @@ Note: All percentages are in float form i.e. 15% = 0.15
 |----------|----------|
 | Data Type   | float   |
 | Description   | Scoring efficiency metric that accounts for field goals, 3-pointers, and free throws  |
-| Formula   | Points / (2 × (FGA + 0.44 × FTA))  |
+| Formula   | Points / (2 x (FGA + 0.44 × FTA))  |
 | Typical Range  | 45% - 70%   |
 | League Average   | 58%   |
 | Elite Threshold   | 65%+   |
@@ -133,7 +133,7 @@ Note: All percentages are in float form i.e. 15% = 0.15
 ## Basketball Terminology Glossary
 | Term | Definition | 
 |----------|----------|
-| Possession   | An offensive oppurtunity resulting in a shot, foul, or turnover  |
+| Possession   | An offensive opportunity resulting in a shot, foul, or turnover  |
 | Pace   | Speed at which a team plays. This is the number of possessions a team has per 48 minutes (full game) | 
 | Offensive Rating  | Points scored per 100 possessions   | 
 | Defensive Rating   | Points allowed per 100 possessions   | 
@@ -143,7 +143,7 @@ Note: All percentages are in float form i.e. 15% = 0.15
 
 ### Known Limitations
 - Missing Context: Injuries, trades, quality of teammates, coaching firings/hirings
-- No Defensive Metrics Tracked: The defensive stats that are tracked are the basic boxscore metrics
+- Limited Defensive Metrics Tracked: The defensive stats that are tracked are the basic boxscore metrics
 - Opponent Strength: Schedule difficulty is not taken into account
 - Team Playstyle: Some teams have higher paces while others play more possession-based basketball (slower)
 

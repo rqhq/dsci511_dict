@@ -1,6 +1,6 @@
 # NBA MVP Dataset - Data Dictionary
 ## Overview
-This documentation provides detailed descriptions of the variables in the NBA MVP dataset. this dataset provides advanced metrics and statistics that require further explanation. These performance metrics are for 33 star-caliber players that have averaged 20+ points per game spanning from 2020-2021 through the 2024-2025 seasons.
+This documentation provides detailed descriptions of the variables in the NBA MVP dataset. This dataset provides advanced metrics and statistics that require further explanation. These performance metrics are for 33 star-caliber players that have averaged 20+ points per game spanning from 2020-2021 through the 2024-2025 seasons.
 
  
 ## Player Identification
@@ -113,7 +113,7 @@ Note: All percentages are in float form i.e. 15% = 0.15
 | Metric | Weight | Reason |
 |----------|----------|----------|
 | NET_RATING   | 30%   | Strongest indicator for winning impact   |
-| TS_PCT   | 20%   | For stars, scoring efficiecy is crucial   |
+| TS_PCT   | 20%   | For stars, scoring efficiency is crucial   |
 | USG_PCT   | 15%   | MVPs are usually won for offensive impact   |
 | AST_RATIO   | 10%   | Playmaking adds value beyond scoring   |
 | REB_PCT   | 10%   | Rebounding leads to more team success and more possessions    |
@@ -122,12 +122,12 @@ Note: All percentages are in float form i.e. 15% = 0.15
 
 
 ## Data Quality Indicators
-### Reccomended Filters
 | Filter | Threshold | Reason |
 |----------|----------|----------|
-| MVP Eligibility   | 65+ games   | This is an official requirement by the NBA. 65 games must be played to be considered for the end of season awards   |
+| MVP Eligibility  | 65+ games   | This is an official requirement by the NBA. 65 games must be played to be considered for the end of season awards   |
 | Statistically Signifcant   | 30+ games   | The law of large numbers: averages stabilize around n = 30 games. This is important for player averages in general but not for MVP eligibility  as it does not reach the requirement |
 | Minutes Per Game   | 30+ MPG| Star players usually play a minimum of 30 minutes per game assuming no injury concerns |
+| Minimum Points Per Game  | 20+ PPG| Only 1 MVP in the last 40+ years has scored less than 20 PPG and that was an era where the pace of games was slower with better defense. Modern NBA has more scoring and higher pace of play |
 
 
 ## Basketball Terminology Glossary

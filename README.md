@@ -125,9 +125,10 @@ Note: All percentages are in float form i.e. 15% = 0.15
 ### Reccomended Filters
 | Filter | Threshold | Reason |
 |----------|----------|----------|
-| Minimum Games   | Data 2   | Data 3   |
-| Data 4   | Data 5   | Data 6   |
-| Data 4   | Data 5   | Data 6   |
+| MVP Eligibility   | 65+ games   | This is an official requirement by the NBA. 65 games must be played to be considered for the end of season awards   |
+| Statistically Signifcant   | 30+ games   | The law of large numbers: averages stabilize around n = 30 games. This is important for player averages in general but not for MVP eligibility  as it does not reach the requirement |
+| Minutes Per Game   | 30+ MPG| Star players usually play a minimum of 30 minutes per game assuming no injury concerns |
+
 
 ## Basketball Terminology Glossary
 | Term | Definition | 
